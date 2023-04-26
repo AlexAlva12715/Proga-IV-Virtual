@@ -11,7 +11,7 @@
         <br><br>
 		<label for="cantidad">Cantidad:</label>
 		<input type="number" id="cantidad" name="cantidad" min="1" required>
-        <br><br><div>
+        <br><br>
 		<input type="submit" value="Calcular">
 	</form>
 	<br><br>
@@ -35,7 +35,7 @@
 			echo "IVA (13%): $" . number_format($iva, 2) . "<br><br>";
 			echo "TOTAL A PAGAR: $" . number_format($total, 2) . "<br><br>";
 		} else {
-			echo "<p style='color: blue;' >Debe ingresar un precio y una cantidad válidos.</p>";
+			echo "<p style='color: #FF0000;' >Debe ingresar un precio y una cantidad válidos.</p>";
 		}
 	}
 	?>
